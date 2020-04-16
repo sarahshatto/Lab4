@@ -12,11 +12,11 @@ function questionsAsked () {
     
     if(FirstTime === 'no'){ 
         alert('To Infinity, And Beyond!')
-        var Contact1 = prompt('Fill Out your email in the form below and let us know how we can help!').toLowerCase;
+        var Contact1 = alert('Fill Out your email in the form below and let us know how we can help!').toLowerCase;
     }
     
     if(returnPlan === 'yes'){
-        Contact1 = prompt('Fill Out your email in the form below and let us know how we can help!').toLowerCase;
+        Contact1 = alert('Fill Out your email in the form below and let us know how we can help!').toLowerCase;
         console.log
     }
 
